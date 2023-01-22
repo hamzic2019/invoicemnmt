@@ -1,0 +1,56 @@
+.makeInvoiceWrapperBodyDates { 
+    color:gray;
+    height: 80px;
+    padding: 0 2%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.makeInvoiceWrapperBodyDatesp {
+    font-size: 20px;
+    margin-right: 6px;
+}
+
+.makeInvoiceWrapperBodyDatesDate {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.makeInvoiceWrapperBodyDatesDate input {
+    border:0px;
+    background-color: rgba(188, 188, 188, 0.15);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.makeInvoiceWrapperBodyDatesDate input:focus {
+    border:0px;
+    background-color: rgba(188, 188, 188, 0.15);
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.makeInvoiceWrapperBodyDatesDueDate {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.makeInvoiceWrapperBodyDatesDueDate input {
+    border:0px;
+    background-color: rgba(188, 188, 188, 0.15);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.makeInvoiceWrapperBodyDatesDueDate input:focus {
+    border:0px;
+    background-color: rgba(188, 188, 188, 0.15);
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

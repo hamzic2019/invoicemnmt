@@ -1,0 +1,36 @@
+.makeInvoiceBackButton {
+    width: 90%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 10px;
+
+    padding: 20px 0;
+}
+
+.makeInvoiceBackButtonLink {
+    padding: 6px 13px;
+    border:2px solid rgba(128, 128, 128, 0.333);
+    border-radius: 5px;
+
+    justify-self: flex-start;
+
+    transition:all 0.25s linear;
+}
+
+.makeInvoiceBackButtonLink:hover {
+    border:2px solid rgba(128, 128, 128, 0.5);
+}
+
+.makeInvoiceBackButtonLinkIcon {
+    font-size: 25px;
+    color:rgba(128, 128, 128, 0.333);
+    transition:all 0.25s linear;
+
+}
+
+.makeInvoiceBackButtonLinkIcon:hover {
+    color:rgba(128, 128, 128, 0.5);
+}
