@@ -1,0 +1,39 @@
+.sorterWrapper {
+    width: 90%;
+    height: 50px;
+
+    box-shadow: 0 0 5px rgba(173, 216, 230, 0.551);
+    border:1px solid rgba(32, 178, 171, 0.2);
+    border-radius: 5px;
+
+    margin: 15px;
+    padding: 0 2%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sorterWrapper-1 {
+    width: 15%;
+}
+
+.sorterWrapper-2 {
+    width: 45%;
+}
+
+.sorterWrapper-3 {
+    width: 20%;
+}
+
+.sorterWrapper-4 {
+    width: 20%;
+}
+
+
+.sorterWrapper-item  p {
+    font-size: 1.25em;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 1px;
+}

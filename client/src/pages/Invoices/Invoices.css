@@ -1,0 +1,48 @@
+/* Hide the horizontal scrollbar */
+::-webkit-scrollbar {
+    overflow: hidden;
+    width: 5px;
+    height: 0.2em;
+  }
+  /* hide scrollbar for IE, Edge and Firefox */
+  scrollbar {
+    overflow: hidden;
+    width: 5px;
+    height: 0.2em;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #bb42424c;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+    border: 2px solid #555;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  /* Hide the horizontal scrollbar for IE, Edge and Firefox */
+  scrollbar[orient="horizontal"] {
+    display: none;
+  }
+  
+  
+
+
+.invoicesWrapper {
+    width: 80%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    overflow: scroll;
+
+    color:gray;
+}
+

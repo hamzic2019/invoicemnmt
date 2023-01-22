@@ -5,6 +5,7 @@ import {Routes, Route} from 'react-router-dom';
 import './App.css'
 import Customers from './pages/Customers/Customers';
 import Invoices from './pages/Invoices/Invoices'
+import Dashboard from './pages/Dashboard/Dashboard';
 
 const App = () => {
   const [currentTab, setCurrentTab] = useState('index')
@@ -14,7 +15,7 @@ const App = () => {
         <Navigation currentTab={currentTab} setCurrentTab={setCurrentTab} />
 
         <Routes>
-          <Route path="/" element={<h1>HOME</h1>} />
+          <Route path="/" element={<Dashboard setCurrentTab={setCurrentTab} />} />
           <Route path="/invoices" element={<Invoices setCurrentTab={setCurrentTab} />} />
           <Route path="/customers" element={<Customers setCurrentTab={setCurrentTab} />} />
 

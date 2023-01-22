@@ -12,7 +12,7 @@ const Navigation = ({setCurrentTab, currentTab}) => {
         <Link className={currentTab === 'index' ? 'link navigationWrapper-active': 'link'} to="/"><TbLayoutDashboard style={{marginRight: '5px', fontSize: '30px'}}/> Dashboard</Link>
         <Link className={currentTab === 'invoices' ? 'link navigationWrapper-active': 'link'} to="/invoices"><TbFileInvoice  style={{marginRight: '5px', fontSize: '30px'}}/> Invoices</Link>
         <Link className={currentTab === 'customers' ? 'link navigationWrapper-active': 'link'} to="/customers" ><TbUsers style={{marginRight: '5px', fontSize: '30px'}}/>Customers</Link>
-        <Link className={currentTab === 'logout' ? 'link navigationWrapper-active': 'link'} to="/customers"><TbLogout style={{marginRight: '5px', fontSize: '30px'}}/> Logout</Link>
+        <Link className={currentTab === 'logout' ? 'link bottom navigationWrapper-active': 'link bottom'} to="/logout"><TbLogout style={{marginRight: '5px', fontSize: '30px'}}/> Logout</Link>
     </div>
   )
 }

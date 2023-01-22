@@ -1,0 +1,32 @@
+.invoicesWrapper-header {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 5%;
+}
+
+.invoicesWrapper-header h3 {
+    font-size: 2em;
+}
+
+.invoicesWrapper-header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invoicesWrapper-header-right .invoices-link {
+    padding: 6px 35px;
+    margin: 2px;
+    font-size: 1.3em;
+    font-weight: 900;
+    background-color: #3498db;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.401);
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.invoicesGroupWrapper {
+    box-shadow: 0 0 5px rgba(173, 216, 230, 0.551);
+    border:1px solid rgba(32, 178, 171, 0.2);
+    border-radius: 5px;
+
+    width: 90%;
+
+    margin: 5px;
+    padding: 1% 1%;
+}

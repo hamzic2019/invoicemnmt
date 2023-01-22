@@ -1,5 +1,6 @@
 .navigationWrapper {
     background-color: rgb(255, 255, 255);
+    box-shadow: 1px 0px 5px lightgray;
     height: 100vh;
     width: 20%;
 
@@ -46,7 +47,7 @@
     border-radius: 5px 0 0 5px;
 }
 
-.navigationWrapper-logout {
+.navigationWrapper .bottom{
     position: absolute;
     bottom:0px
 }
