@@ -1,0 +1,52 @@
+.navigationWrapper {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    position: relative;
+
+    
+}
+
+.navigationWrapper h1 {
+    font-size: 2em;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    color:gray;
+    align-self: center;
+}
+
+.navigationWrapper .link {
+    margin-bottom: 10px;
+    font-size: 1.25em;
+    
+    width: 90%;
+    height: 50px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    cursor: pointer;
+
+    color:gray;
+
+    padding: 0 5px;
+
+    text-decoration: none;
+}
+
+.navigationWrapper-active {
+    border-right: 5px solid rgba(0, 0, 255, 0.25)!important;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 5px 0 0 5px;
+}
+
+.navigationWrapper-logout {
+    position: absolute;
+    bottom:0px
+}
